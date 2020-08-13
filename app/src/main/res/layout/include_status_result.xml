@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+
+    <ScrollView
+        android:id="@+id/sv_result"
+        android:layout_margin="@dimen/dp_4"
+        android:background="@drawable/result_bg"
+        android:padding="@dimen/dp_4"
+        android:fadeScrollbars="false"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_148">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvResult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="@dimen/dp_3"
+                android:padding="@dimen/dp_4"
+                android:textSize="@dimen/dp_10"
+                tools:text="操作结果"
+                tools:ignore="SpUsage" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</layout>
